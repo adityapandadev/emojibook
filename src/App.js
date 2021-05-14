@@ -21,6 +21,8 @@ export default function App() {
       <h1>Emojibook</h1>
       {/* <h2 style={{ color: color }}>Welcome {userName}</h2> */}
       <button onClick={likeClickHandler}>Click me</button> {likeCounter}
+
+     <p>done for now</p>
     </div>
   );
 }
