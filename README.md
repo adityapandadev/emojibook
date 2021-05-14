@@ -1,2 +1,0 @@
-# emojibook
-Created with CodeSandbox
