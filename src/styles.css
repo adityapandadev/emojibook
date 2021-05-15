@@ -1,4 +1,18 @@
 .App {
   font-family: sans-serif;
   text-align: center;
+  
+}
+
+body{
+  background-color: pink
+}
+
+input {
+  padding: 1rem;
+  width: 80%;
+}
+
+#username {
+  color: red;
 }
