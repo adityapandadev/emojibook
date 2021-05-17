@@ -1,18 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+
 .App {
   font-family: sans-serif;
   text-align: center;
-  
 }
 
-body{
-  background-color: pink
+body {
+  background-color: #f39189;
+  color: #064420;
+}
+
+body h1,
+h2,
+h3 {
+  font-family: "Josefin Sans", sans-serif;
+  letter-spacing: 1.2px;
 }
 
 input {
-  padding: 1rem;
-  width: 80%;
+  padding: 0.5rem;
+  width: 60%;
+  border-radius: 0.7rem;
+  background-color: #bb8082;
 }
 
-#username {
-  color: red;
+input:focus {
+  outline: none;
 }

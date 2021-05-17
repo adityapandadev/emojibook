@@ -35,8 +35,10 @@ export default function App() {
     <div className="App">
       <h1>Emojibook</h1>
       <input onChange={emojiInputHandler}></input>
-      <h3>{meaning}</h3>
-      <h4>Emojis We Know</h4>
+      <h2>{meaning}</h2>
+      <h3>
+        <strong>Click on below emoji's to know their meaning.👇</strong>
+      </h3>
       {emojisWeKnow.map((emoji) => {
         return (
           <span
@@ -48,6 +50,20 @@ export default function App() {
           </span>
         );
       })}
+      <div style={{ marginTop: "2rem" }}>
+        <a
+          style={{
+            textDecoration: "none",
+            color: "white",
+            backgroundColor: "black",
+            padding: ".5rem",
+            borderRadius: ".5rem"
+          }}
+          href="https://cl819.csb.app/"
+        >
+          clear output
+        </a>
+      </div>
     </div>
   );
 }
