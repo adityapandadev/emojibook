@@ -59,7 +59,7 @@ export default function App() {
             padding: ".5rem",
             borderRadius: ".5rem"
           }}
-          href="https://cl819.csb.app/"
+          href="\"
         >
           clear output
         </a>
