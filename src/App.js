@@ -7,7 +7,11 @@ var emojiDictionary = {
   "🤔": "thinking face",
   "😴": "Sleeping",
   "😡": "Angry",
-  "🧐": "Spying"
+  "🧐": "Spying",
+  "🤩": "Star-Struck",
+  "🤪": "Zany Face",
+  "🤐": "Zipper-Mouth Face",
+  "🤫": "Shushing Face"
 };
 
 var emojisWeKnow = Object.keys(emojiDictionary);
